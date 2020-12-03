@@ -1,3 +1,4 @@
+import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
@@ -9,6 +10,13 @@ public class ProducerAndConsumer {
         new Thread(() -> { for (int i = 0; i < 10; i++) { data.printA(); } },"A").start();
         new Thread(() -> { for (int i = 0; i < 10; i++) { data.printB(); } },"B").start();
         new Thread(() -> { for (int i = 0; i < 10; i++) { data.printC(); } },"C").start();
+
+        // JUC 并发线程包下的类的方法
+        try {
+            TimeUnit.SECONDS.sleep(1);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 }
 
@@ -18,6 +26,7 @@ class Data {
     private Condition condition2 = lock.newCondition();
     private Condition condition3 = lock.newCondition();
     private int number = 1;
+
 
     public void printA(){
         lock.lock();

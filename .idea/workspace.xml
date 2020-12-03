@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a698ba1-35a9-422e-89f3-15b6d133352e" name="Default Changelist" comment="" />
+    <list default="true" id="2a698ba1-35a9-422e-89f3-15b6d133352e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/CallableDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CountDownLatchDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CyclicBarrierDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ListClassIsUnsafe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ProducerAndConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProducerAndConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Data.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Data.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ProducerAndConsumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ProducerAndConsumer.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +23,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1l3eeImU2OYTCJ9rL6UN18z5qQY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -29,9 +42,30 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="Application.ProducerAndConsumer">
-    <configuration name="GetCPUCoreAmount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GetCPUCoreAmount" />
+  <component name="RunManager" selected="Application.CyclicBarrierDemo">
+    <configuration name="CallableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CallableDemo" />
+      <module name="juc" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountDownLatchDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CountDownLatchDemo" />
+      <module name="juc" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CyclicBarrierDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CyclicBarrierDemo" />
+      <module name="juc" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListClassIsUnsafe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ListClassIsUnsafe" />
       <module name="juc" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -44,18 +78,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SaleTicketDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SaleTicketDemo" />
-      <module name="juc" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CyclicBarrierDemo" />
+        <item itemvalue="Application.CountDownLatchDemo" />
+        <item itemvalue="Application.CallableDemo" />
+        <item itemvalue="Application.ListClassIsUnsafe" />
         <item itemvalue="Application.ProducerAndConsumer" />
-        <item itemvalue="Application.SaleTicketDemo" />
-        <item itemvalue="Application.GetCPUCoreAmount" />
       </list>
     </recent_temporary>
   </component>
@@ -70,7 +99,8 @@
       <option name="presentableId" value="Default" />
       <updated>1606830295076</updated>
       <workItem from="1606830298975" duration="2980000" />
-      <workItem from="1606896254606" duration="5098000" />
+      <workItem from="1606896254606" duration="5397000" />
+      <workItem from="1606967679783" duration="14950000" />
     </task>
     <servers />
   </component>
@@ -78,26 +108,30 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="181" key="#Project_Structure" timestamp="1606832219124">
+    <state x="552" y="181" key="#Project_Structure" timestamp="1606998575855">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="181" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1606832219124" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1606931591633">
+    <state x="552" y="181" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1606998575855" />
+    <state x="1245" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1606998755422">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606931591633" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1606931591633">
+    <state x="1245" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1606998755422" />
+    <state width="916" height="281" key="GridCell.Tab.0.bottom" timestamp="1607020601905">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606931591633" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1606931591633">
+    <state width="916" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607020601905" />
+    <state width="916" height="281" key="GridCell.Tab.0.center" timestamp="1607020601905">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606931591633" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1606931591633">
+    <state width="916" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607020601905" />
+    <state width="916" height="281" key="GridCell.Tab.0.left" timestamp="1607020601905">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606931591633" />
+    <state width="916" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607020601905" />
+    <state width="916" height="281" key="GridCell.Tab.0.right" timestamp="1607020601905">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="916" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607020601905" />
     <state x="233" y="180" key="SettingsEditor" timestamp="1606830876731">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -106,5 +140,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="334" y="224" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1606896278225" />
+    <state x="1096" y="177" width="672" height="676" key="search.everywhere.popup" timestamp="1606997614739">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1096" y="177" width="672" height="676" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606997614739" />
   </component>
 </project>
