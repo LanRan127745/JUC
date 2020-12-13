@@ -1,3 +1,5 @@
+package utilClass;
+
 import java.util.concurrent.CountDownLatch;
 
 // 计数器

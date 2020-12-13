@@ -1,3 +1,5 @@
+package utilClass;
+
 import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;
 
@@ -7,7 +9,7 @@ public class CyclicBarrierDemo {
          * 集齐7颗龙珠召唤神龙
          */
         // 召唤龙珠的线程
-        CyclicBarrier cyclicBarrier = new CyclicBarrier(7,() -> {
+        CyclicBarrier cyclicBarrier = new CyclicBarrier(8,() -> {
             System.out.println("召唤神龙成功");
         });
 
