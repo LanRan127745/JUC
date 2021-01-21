@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a698ba1-35a9-422e-89f3-15b6d133352e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ReadWriteLockDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/blockingQueue/Demo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/blockingQueue/synchronousQueueDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/functionInterface/ConsumerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/functionInterface/FunctionDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/functionInterface/PredicateDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/functionInterface/SupplierDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pool/CreatePool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pool/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stream/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stream/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utilClass/SemaphoreDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CountDownLatchDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilClass/CountDownLatchDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CyclicBarrierDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilClass/CyclicBarrierDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,6 +140,8 @@
       <workItem from="1607354149110" duration="524000" />
       <workItem from="1607354686217" duration="3963000" />
       <workItem from="1607521590304" duration="8000" />
+      <workItem from="1607829493620" duration="645000" />
+      <workItem from="1609678600214" duration="11000" />
     </task>
     <task id="LOCAL-00001" summary="concurrent -&gt; cyclicBarrier">
       <created>1607020643867</created>
